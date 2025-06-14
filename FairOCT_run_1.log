@@ -1,0 +1,170 @@
+
+Gurobi 12.0.2 (linux64) logging started Sat Jun 14 08:34:13 2025
+
+Set parameter LogFile to value "/kaggle/working/FairOCT_run_1.log"
+Gurobi Optimizer version 12.0.2 build v12.0.2rc0 (linux64 - "Ubuntu 22.04.4 LTS")
+
+CPU model: Intel(R) Xeon(R) CPU @ 2.00GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+
+Non-default parameters:
+TimeLimit  300
+Seed  102
+
+Academic license 2664241 - for non-commercial use only - registered to zd___@iitmz.ac.in
+Optimize a model with 2 rows, 768 columns and 1536 nonzeros
+Model fingerprint: 0x1c6e4b64
+Model has 768 quadratic objective terms
+Variable types: 0 continuous, 768 integer (768 binary)
+Coefficient statistics:
+  Matrix range     [2e-03, 4e-03]
+  Objective range  [2e+00, 2e+00]
+  QObjective range [2e+00, 2e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [5e-02, 5e-02]
+Found heuristic solution: objective 394.0000000
+Found heuristic solution: objective 374.0000000
+Presolve removed 1 rows and 763 columns
+Presolve time: 0.00s
+Presolved: 1 rows, 5 columns, 5 nonzeros
+Variable types: 0 continuous, 5 integer (0 binary)
+
+Root relaxation: objective 5.516698e+01, 1 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0   55.16698    0    1  374.00000   55.16698  85.2%     -    0s
+H    0     0                      56.0000000   55.16698  1.49%     -    0s
+     0     0   55.16698    0    1   56.00000   55.16698  1.49%     -    0s
+
+Explored 1 nodes (1 simplex iterations) in 0.02 seconds (0.00 work units)
+Thread count was 4 (of 4 available processors)
+
+Solution count 3: 56 374 394 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 5.600000000000e+01, best bound 5.600000000000e+01, gap 0.0000%
+
+Gurobi 12.0.2 (linux64) logging started Sat Jun 14 08:34:33 2025
+
+Set parameter LogFile to value "/kaggle/working/FairOCT_run_1.log"
+Gurobi Optimizer version 12.0.2 build v12.0.2rc0 (linux64 - "Ubuntu 22.04.4 LTS")
+
+CPU model: Intel(R) Xeon(R) CPU @ 2.00GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+
+Non-default parameters:
+TimeLimit  300
+Seed  102
+
+Academic license 2664241 - for non-commercial use only - registered to zd___@iitmz.ac.in
+Optimize a model with 1 rows, 768 columns and 768 nonzeros
+Model fingerprint: 0x09566baf
+Model has 768 quadratic objective terms
+Variable types: 0 continuous, 768 integer (768 binary)
+Coefficient statistics:
+  Matrix range     [2e-03, 4e-03]
+  Objective range  [2e+00, 2e+00]
+  QObjective range [2e+00, 2e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [5e-02, 5e-02]
+Found heuristic solution: objective 473.0000000
+Presolve removed 1 rows and 768 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds (0.00 work units)
+Thread count was 1 (of 4 available processors)
+
+Solution count 2: 79 473 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 7.900000000000e+01, best bound 7.900000000000e+01, gap 0.0000%
+
+Gurobi 12.0.2 (linux64) logging started Sat Jun 14 08:34:54 2025
+
+Set parameter LogFile to value "/kaggle/working/FairOCT_run_1.log"
+Gurobi Optimizer version 12.0.2 build v12.0.2rc0 (linux64 - "Ubuntu 22.04.4 LTS")
+
+CPU model: Intel(R) Xeon(R) CPU @ 2.00GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+
+Non-default parameters:
+TimeLimit  300
+Seed  102
+
+Academic license 2664241 - for non-commercial use only - registered to zd___@iitmz.ac.in
+Optimize a model with 2 rows, 768 columns and 1536 nonzeros
+Model fingerprint: 0x1c6e4b64
+Model has 768 quadratic objective terms
+Variable types: 0 continuous, 768 integer (768 binary)
+Coefficient statistics:
+  Matrix range     [2e-03, 4e-03]
+  Objective range  [2e+00, 2e+00]
+  QObjective range [2e+00, 2e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [5e-02, 5e-02]
+Found heuristic solution: objective 394.0000000
+Found heuristic solution: objective 374.0000000
+Presolve removed 1 rows and 763 columns
+Presolve time: 0.00s
+Presolved: 1 rows, 5 columns, 5 nonzeros
+Variable types: 0 continuous, 5 integer (0 binary)
+
+Root relaxation: objective 5.516698e+01, 1 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0   55.16698    0    1  374.00000   55.16698  85.2%     -    0s
+H    0     0                      56.0000000   55.16698  1.49%     -    0s
+     0     0   55.16698    0    1   56.00000   55.16698  1.49%     -    0s
+
+Explored 1 nodes (1 simplex iterations) in 0.02 seconds (0.00 work units)
+Thread count was 4 (of 4 available processors)
+
+Solution count 3: 56 374 394 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 5.600000000000e+01, best bound 5.600000000000e+01, gap 0.0000%
+
+Gurobi 12.0.2 (linux64) logging started Sat Jun 14 08:35:35 2025
+
+Set parameter LogFile to value "/kaggle/working/FairOCT_run_1.log"
+Gurobi Optimizer version 12.0.2 build v12.0.2rc0 (linux64 - "Ubuntu 22.04.4 LTS")
+
+CPU model: Intel(R) Xeon(R) CPU @ 2.00GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+
+Non-default parameters:
+TimeLimit  300
+Seed  102
+
+Academic license 2664241 - for non-commercial use only - registered to zd___@iitmz.ac.in
+Optimize a model with 4 rows, 768 columns and 1536 nonzeros
+Model fingerprint: 0x17df31f4
+Model has 768 quadratic objective terms
+Variable types: 0 continuous, 768 integer (768 binary)
+Coefficient statistics:
+  Matrix range     [3e-03, 1e-02]
+  Objective range  [2e+00, 2e+00]
+  QObjective range [2e+00, 2e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [5e-02, 5e-02]
+Found heuristic solution: objective 394.0000000
+Found heuristic solution: objective 374.0000000
+Presolve removed 2 rows and 766 columns
+Presolve time: 0.00s
+Presolved: 2 rows, 2 columns, 4 nonzeros
+Found heuristic solution: objective 244.0000000
+Found heuristic solution: objective 0.0000000
+Variable types: 0 continuous, 2 integer (0 binary)
+
+Explored 0 nodes (0 simplex iterations) in 0.02 seconds (0.00 work units)
+Thread count was 4 (of 4 available processors)
+
+Solution count 4: 0 244 374 394 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 0.000000000000e+00, best bound 0.000000000000e+00, gap 0.0000%
